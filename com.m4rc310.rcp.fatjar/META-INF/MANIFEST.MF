@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Fatjar
+Bundle-SymbolicName: com.m4rc310.rcp.fatjar
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: M4RC310
+Automatic-Module-Name: com.m4rc310.rcp.fatjar
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8

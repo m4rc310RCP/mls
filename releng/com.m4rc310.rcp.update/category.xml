@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.m4rc310.rcp.principal.feature_1.0.0.qualifier.jar" id="com.m4rc310.rcp.principal.feature" version="1.0.0.qualifier">
+      <category name="m4rc310.rcp"/>
+   </feature>
+   <category-def name="m4rc310.rcp" label="m4rc310.rcp"/>
+</site>
