@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry exported="true" kind="lib" path="libs/lombok.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="libs/quartz/c3p0-0.9.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/quartz/log4j-1.2.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/quartz/quartz-2.4.0-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/quartz/quartz-jobs-2.4.0-SNAPSHOT.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/quartz/slf4j-api-1.7.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/quartz/slf4j-log4j12-1.7.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-datatype-jsr310-2.12.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/javassist-3.26.0-GA.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/reflections-0.9.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/org.eclipse.jface.databinding_1.9.200.v20191113-1050.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/org.eclipse.wb.rcp.databinding_1.9.1.201812270937.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/gson-2.8.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-annotations-2.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-core-2.9.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/jackson-databind-2.9.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/org.brazilutils.br-1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/spring-beans-4.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/spring-core-4.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/spring-web-4.2.1.RELEASE.jar" sourcepath="libs/spring-web-4.2.1.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/spring-context-5.2.4.RELEASE.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/org.eclipse.draw2d_3.5.0.jar"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

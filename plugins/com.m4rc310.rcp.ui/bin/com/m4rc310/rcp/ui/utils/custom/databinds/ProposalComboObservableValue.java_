@@ -1,0 +1,56 @@
+package com.m4rc310.rcp.ui.utils.custom.databinds;
+
+import org.eclipse.core.databinding.observable.Diffs;
+import org.eclipse.jface.viewers.ComboViewer;
+import org.eclipse.jface.viewers.ISelectionChangedListener;
+import org.eclipse.jface.viewers.IStructuredSelection;
+import org.eclipse.jface.viewers.SelectionChangedEvent;
+import org.eclipse.jface.viewers.StructuredSelection;
+
+public class ProposalComboObservableValue extends MAbstractObservableValue<Object>
+		implements ISelectionChangedListener {
+
+	private ComboViewer widget;
+	private Object oldValue;
+
+	public ProposalComboObservableValue(ComboViewer widget) {
+		this.widget = widget;
+		if(!widget.getCombo().isDisposed()) {
+			widget.addSelectionChangedListener(this);
+		}
+	}
+
+	@Override
+	public Object getValueType() {
+		return null;
+	}
+
+	@Override
+	public void selectionChanged(SelectionChangedEvent event) {
+		IStructuredSelection sts = (IStructuredSelection) event.getSelection();
+		Object newValue = sts.getFirstElement();
+		if (newValue != null) {
+			if (!newValue.equals(oldValue)) {
+				fireValueChange(Diffs.createValueDiff(oldValue, newValue));
+				oldValue = newValue;
+			}
+		}
+	}
+
+	@Override
+	protected Object doGetValue() {
+		if (!widget.getCombo().isDisposed()) {
+			return widget.getStructuredSelection().getFirstElement();
+		}
+		return null;
+	}
+
+	@Override
+	protected void doSetValue(Object value) {
+		if (value != null && (!widget.getCombo().isDisposed())) {
+			StructuredSelection selection = new StructuredSelection(value);
+			widget.setSelection(selection);
+		}
+	}
+
+}

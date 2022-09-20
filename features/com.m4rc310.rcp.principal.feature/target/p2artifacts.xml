@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='1'>
+  <artifact classifier='org.eclipse.update.feature' id='com.m4rc310.rcp.principal.feature' version='1.0.0.202209182149'>
+    <properties size='7'>
+      <property name='artifact.size' value='834'/>
+      <property name='download.size' value='834'/>
+      <property name='maven-groupId' value='com.m4rc310.rcp'/>
+      <property name='maven-artifactId' value='com.m4rc310.rcp.principal.feature'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

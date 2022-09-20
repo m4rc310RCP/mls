@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="com.m4rc310.rcp.graphql.preferences.GraphQLPreferenceInitializer">
+      </initializer>
+   </extension>
+   <extension
+         id="com.m4rc310.rcp.graphql.fragment"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi"
+            apply="always">
+      </fragment>
+   </extension>
+   
+   <!--
+   <extension
+         point="com.opcoach.e4.preferences.e4PreferencePages">
+      <page
+            class="com.m4rc310.rcp.graphql.preferences.GraphQLPreferences"
+            id="com.m4rc310.rcp.graphql.server"
+            name="%text.server">
+      </page>
+   </extension>
+   -->
+
+</plugin>

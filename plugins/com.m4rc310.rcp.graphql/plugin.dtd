@@ -1,0 +1,5 @@
+<!ELEMENT plugin (extension)>
+<!ELEMENT extension (initializer)>
+<!ATTLIST extension point NMTOKEN #REQUIRED>
+<!ELEMENT initializer (#PCDATA)>
+<!ATTLIST initializer class NMTOKEN #REQUIRED>

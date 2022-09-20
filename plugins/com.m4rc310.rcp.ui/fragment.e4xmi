@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_K7lggGDhEey09qcHGh_baQ">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_NRoK0GDhEey09qcHGh_baQ" featurename="children" parentElementId="com.m4rc310.rcp.toolbar.statusbar.main">
+    <elements xsi:type="menu:ToolControl" xmi:id="_5R6CIGDiEey09qcHGh_baQ" elementId="com.m4rc310.rcp.ui.toolcontrol.streaming" toBeRendered="false" contributionURI="bundleclass://com.m4rc310.rcp.ui/com.m4rc310.rcp.ui.controls.toolcontrols.ToolcontrolStatusBarStreaming"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_2lonIGD4Eey09qcHGh_baQ" featurename="children" parentElementId="com.m4rc310.rcp.trimbar.statusbar" positionInList="after:com.m4rc310.rcp.toolbar.statusbar.main">
+    <elements xsi:type="menu:ToolBar" xmi:id="_WvWOYGEhEey09qcHGh_baQ" elementId="com.m4rc310.rcp.ui.toolbar.message">
+      <children xsi:type="menu:ToolControl" xmi:id="_BiqVYGD5Eey09qcHGh_baQ" elementId="com.m4rc310.rcp.ui.toolcontrol.alert.icon" contributionURI="bundleclass://com.m4rc310.rcp.ui/com.m4rc310.rcp.ui.controls.toolcontrols.ToolcontrolStatusBarAlertIcon"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_9yxb0NR-EeybHcJvbbXOxQ" featurename="addons" parentElementId="xpath:/">
+    <elements xsi:type="application:Addon" xmi:id="_BXRdUNR_EeybHcJvbbXOxQ" elementId="com.m4rc310.rcp.ui.addon.startup" contributionURI="bundleclass://com.m4rc310.rcp.ui/com.m4rc310.rcp.ui.addons.AddonStartup"/>
+  </fragments>
+</fragment:ModelFragments>
